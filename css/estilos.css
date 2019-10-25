@@ -1,0 +1,118 @@
+html {
+  font-size: 15px; }
+
+/* Estilos bloque Header */
+.bienvenidos {
+  background: url("../images/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 100vh;
+                /* 100vh es otra forma de decir 100%, 50vh = 50% de la pantalla peros si coloco 100% no funciona en cambio
+con vh si se activa y aggara toda la pantalla */
+  overflow: hidden; }
+
+.fixed-top {
+  background: #0c0c0c61; }
+
+.navbar-light .navbar-brand {
+  color: #f9f8f8;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: #f5f4f4; }
+
+.navbar-toggler {
+  background-color: #efe9e985;
+  color: #fff !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fdfbfb;
+  text-align: center;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #f9f9f9;
+  background-color: #f05f40; }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #fbf8f8;
+  background-color: #f05f40; }
+
+#menuprincipal {
+  clear: both; }
+
+.texto-bienvenido {
+  color: #fff;
+  margin-top: 9rem; }
+
+.btn-dark {
+  color: #fff;
+  background-color: #f05f40;
+  border-color: #f05f40;
+  -webkit-transition: all 5s esase;
+  transition: all 5s esase;
+  /* se supone que hace que el hover demore 5 seg */ }
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #f57f65;
+  border-color: #af422a; }
+
+/* Estilos bloque quienes somos */
+.quienes-somos {
+  background: #f05f40;
+  color: #fff; }
+
+/* Estilos bloque servicios */
+#iconos {
+  font-size: 6rem; }
+
+.servicios h2 {
+  margin: 3rem 0; }
+
+.servicios h3 {
+  font-weight: bold; }
+
+/* Estilos bloque ultimos proyectos */
+.ultimos-proyectos {
+  background: #424141;
+  color: #fff; }
+
+.ultimos-proyectos h2 {
+  margin: 3rem 0; }
+
+/* Para que solo se mueva el bloque interno de la imagen */
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+/* permite que el cambio de tamano en el transform sea mas lento o rapido */
+.ultimos-proyectos img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  min-width: 100%; }
+
+/* este estilo permite que la imagen cambie de tamano al pasar por encima el mouse */
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
+
+/* Estilos bloque footer */
+.footer {
+  color: #fff;
+  background: #222222; }
+
+/* Media Querys */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  .bienvenidos {
+    background: url("../images/fondo-bienvenido-grande.jpg");
+    background-size: cover; } }
+
+/*# sourceMappingURL=estilos.css.map */
